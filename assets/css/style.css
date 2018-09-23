@@ -24,10 +24,14 @@
      list-style: none;
      display: inline;
  }
-
- span {
+a{
+    text-decoration:none
+}         /*removing underscores form links*/
+ span, h3 {
+     font-family: 'Boogaloo', cursive;
      font-size: 30px;
  }
+ 
 .content-end{
     justify-content: flex-end;
 }
