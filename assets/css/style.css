@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+}
+
+ html, section {
+   margin:0;
+   padding:0;
+   height:100%;
+    
+}
+   
  /*---------------header----------*/
  .left-from-logo {
      background-color: red;
@@ -25,8 +41,8 @@
      display: inline;
  }
 a{
-    text-decoration:none
-}         /*removing underscores form links*/
+    text-decoration:none                    /*removing underscores form links*/
+}         
  span, h3 {
      font-family: 'Boogaloo', cursive;
      font-size: 30px;
@@ -44,7 +60,49 @@ a{
     max-width: 200px;
     height: auto;
  }
+/*---------------section----------*/
+ 
+.big-pic {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
 
+.black-white-pic {
+    max-width: 100%;
+    height: auto;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 50%;
+} 
+.under-image-section{
+    margin: 0;
+    padding: 0;
+
+    
+}
+.section-text{
+    background-color: lightgray;
+}
+
+/*----------footer-------------------*/
+footer{
+  background-color:#f5720d;
+  color:#FFFFFF;
+  text-align: center;
+  width:100%;
+  min-height: 100px;
+  margin: 0;
+   
+   
+}
 /*----------media-queries---------------*/
 @media(max-width: 860px) {
 li {
@@ -70,14 +128,3 @@ li {
   order: 3;
   }
 }
-/*----------footer-------------------*/
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  background-color: orange;
-}
-
-
