@@ -10,7 +10,7 @@ body {
  html, section {
    margin:0;
    padding:0;
-   height:100%;
+   
     
 }
    
@@ -83,13 +83,29 @@ hr {
     width: 50%;
 } 
 .under-image-section{
-    margin: 0;
+    max-width: 930px;
+    margin: auto;
     padding: 0;
+    justify-content: center;
 
     
 }
-.section-text{
+.section-text1{
     background-color: lightgray;
+    margin-right: 5px;
+    padding: 0;
+}
+.section-text2{
+    background-color: rgb(220, 170, 170); 
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    
+}
+.section-text3{
+    background-color: rgb(137, 102, 182); 
+    margin-left: 5px;
+    padding: 0;
 }
 
 /*----------footer-------------------*/
@@ -114,9 +130,11 @@ li {
  @media(max-width: 575px){
 .content-end{
     justify-content:center;
+     
 }
 .content-start{
     justify-content:center;
+     
 }
 .left-from-logo {
   order: 2;
@@ -128,3 +146,17 @@ li {
   order: 3;
   }
 }
+ @media(max-width: 767px){
+.section-text1{
+    margin-right: 0px;
+    margin-bottom: 5px;  
+}
+.section-text2{ 
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px; 
+}
+.section-text3{   
+    margin-left: 0px;   
+}   
+ }
