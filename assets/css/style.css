@@ -60,7 +60,7 @@ a{
     max-width: 200px;
     height: auto;
  }
-/*---------------section----------*/
+/*---------------section-home-page--------*/
  
 .big-pic {
     text-align: center;
@@ -106,6 +106,19 @@ hr {
     background-color: rgb(137, 102, 182); 
     margin-left: 5px;
     padding: 0;
+}
+/*----------------section-band-page--------------*/
+.band{
+    background-color: #FFFFFF;
+    margin: 5px;
+}
+.image-float-left{
+    float: left;
+    margin: 5px;
+}
+.image-float-right{
+    float: right;
+    margin-top: 5px;
 }
 
 /*----------footer-------------------*/
@@ -160,3 +173,4 @@ li {
     margin-left: 0px;   
 }   
  }
+
