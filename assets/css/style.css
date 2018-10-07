@@ -10,6 +10,7 @@ body {
  html, section {
    margin:0;
    padding:0;
+   height: 100%;
    
     
 }
@@ -57,7 +58,7 @@ a{
  /*--------------Logo------------*/
  .responsive {
     width: 100%;
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
  }
 /*---------------section-home-page--------*/
@@ -127,13 +128,41 @@ hr {
 }
 
 /*----------------section-discography-page--------------*/
-.list-background-color{
-    background-color: #FFFFFF;
-}
+ 
 .first-row{
     margin-top: 10px;
+    justify-content: center;
 }
- 
+.album{
+    background-color: #fdfbfb;
+
+}
+.responsive-d{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.album, .album1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+}
+/*---------------section-multimedia-page----------------*/
+.embed-responsive{
+    max-width: 400px;
+    max-height: 300px;
+    min-width: 200px;
+    min-height: 150px;
+    margin: auto;
+}
+.video{
+    text-align: center;
+}
+.audio{
+    text-align: center;
+}
 /*----------------section-contact-page------------------*/
 .contact-background{
     background-image: url("../images/concert.jpg");
@@ -166,21 +195,32 @@ footer{
 }
 /*----------media-queries---------------*/
 @media(max-width: 860px) {
-li {
+ul, .header-li {
      list-style: none;
      display: block;
 }
 }
+ @media(max-width: 767px){
+.section-text1{
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+.section-text2{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+.section-text3{
+    margin-left: 0px;
+}
+.audio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ }
 
  @media(max-width: 575px){
-.content-end{
-    justify-content:center;
-     
-}
-.content-start{
-    justify-content:center;
-     
-}
+
 .left-from-logo {
   order: 2;
   }
@@ -190,19 +230,12 @@ li {
 .right-from-logo {
   order: 3;
   }
-}
- @media(max-width: 767px){
-.section-text1{
-    margin-right: 0px;
-    margin-bottom: 5px;  
-}
-.section-text2{ 
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 5px; 
-}
-.section-text3{   
-    margin-left: 0px;   
-}   
- }
+.content-end{
+    justify-content:center;
 
+}
+.content-start{
+    justify-content:center;
+
+}
+}
