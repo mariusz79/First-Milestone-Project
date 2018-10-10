@@ -3,26 +3,28 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    background-color: #fce7e7;
-    color: #555555;
+    background-color: rgba(160, 174, 228, 0.483);
+    color: black;
 }
 
- html, section {
+ html, body {
    margin:0;
    padding:0;
    height: 100%;
    
     
 }
-   
+section{
+    min-height: 100vh;
+}
  /*---------------header----------*/
  .left-from-logo {
-     background-color: red;
+     background-color:rgba(67, 86, 173, 0.245);
      margin: auto;
  }
 
  .logo {
-     background-color: rgb(78, 78, 248);
+     background-color:rgba(67, 86, 173, 0.435);
      text-align: center;
      padding-left: 0;
      padding-right: 0;
@@ -30,12 +32,12 @@ body {
  }
 
  .right-from-logo {
-     background-color: green;
+     background-color:rgba(67, 86, 173, 0.415);
       margin: auto;
  }
  
-.orange-color{
-    background-color: orange;
+.header-color{
+    background-color:rgba(67, 86, 173, 0.442);
 }
 .header-li {
      list-style: none;
@@ -47,6 +49,7 @@ a{
  span, h3 {
      font-family: 'Boogaloo', cursive;
      font-size: 30px;
+     color: #19254D;
  }
  
 .content-end{
@@ -65,7 +68,7 @@ a{
  
 .big-pic {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -88,6 +91,7 @@ hr {
     margin: auto;
     padding: 0;
     justify-content: center;
+    margin-bottom: 15px;
 
     
 }
@@ -184,15 +188,18 @@ hr {
 }
 /*----------footer-------------------*/
 footer{
-  background-color:#f5720d;
+  background-color:#4357AD;
   color:#FFFFFF;
   text-align: center;
   width:100%;
   min-height: 100px;
   margin: 0;
-   
-   
 }
+
+
+   
+   
+
 /*----------media-queries---------------*/
 @media(max-width: 860px) {
 ul, .header-li {
@@ -238,4 +245,14 @@ ul, .header-li {
     justify-content:center;
 
 }
+}
+
+
+
+
+span:hover{
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    color: rgb(183, 149, 241);
 }
