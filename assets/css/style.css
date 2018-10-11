@@ -3,7 +3,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    background-color: rgba(160, 174, 228, 0.483);
+    background-color: #E4DFDA;
     color: black;
 }
 
@@ -19,12 +19,12 @@ section{
 }
  /*---------------header----------*/
  .left-from-logo {
-     background-color:rgba(67, 86, 173, 0.245);
+     background-color:#7680BB;
      margin: auto;
  }
 
  .logo {
-     background-color:rgba(67, 86, 173, 0.435);
+     background-color:#7680BB;
      text-align: center;
      padding-left: 0;
      padding-right: 0;
@@ -32,12 +32,12 @@ section{
  }
 
  .right-from-logo {
-     background-color:rgba(67, 86, 173, 0.415);
+     background-color:#7680BB;
       margin: auto;
  }
  
 .header-color{
-    background-color:rgba(67, 86, 173, 0.442);
+    background-color:#7680BB;
 }
 .header-li {
      list-style: none;
@@ -64,11 +64,13 @@ a{
     max-width: 150px;
     height: auto;
  }
-/*---------------section-home-page--------*/
  
+/*---------------section-home-page--------*/
+
+
 .big-pic {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
 }
 
@@ -87,32 +89,45 @@ hr {
     width: 50%;
 } 
 .under-image-section{
-    max-width: 930px;
+    max-width: 980px;
     margin: auto;
     padding: 0;
     justify-content: center;
-    margin-bottom: 15px;
-
-    
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 .section-text1{
-    background-color: lightgray;
+    background-color: rgb(198, 182, 166);
     margin-right: 5px;
     padding: 0;
 }
 .section-text2{
-    background-color: rgb(220, 170, 170); 
+    background-color: #48A9A6; 
     margin-left: 5px;
     margin-right: 5px;
     padding: 0;
     
 }
 .section-text3{
-    background-color: rgb(137, 102, 182); 
+    background-color: #D4B483; 
     margin-left: 5px;
     padding: 0;
 }
+#icon-nowrap{
+    white-space: nowrap;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+.far{
+    font-size: 30px;
+}
 /*----------------section-band-page--------------*/
+.description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .band{
     background-color: #FFFFFF;
     margin: 5px;
@@ -139,7 +154,9 @@ hr {
 }
 .album{
     background-color: #fdfbfb;
-
+}
+.album1{
+    background-color: #cbc0c0;
 }
 .responsive-d{
     width: 100%;
@@ -169,13 +186,18 @@ hr {
 }
 /*----------------section-contact-page------------------*/
 .contact-background{
-    background-image: url("../images/concert.jpg");
-    height: 100%; 
-
-    /* Center and scale the image nicely */
+   background-color: #4357AD;
+   margin-top: 20px;
+    /* Center and scale the image nicely 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;  */
+}
+.text-advert{
+    margin-top: 20px;
+}
+h5{
+    margin-top: 15px;
 }
 .uppercase{
     text-transform: uppercase;
@@ -186,9 +208,12 @@ hr {
     margin: 0 auto;
     text-align: center;
 }
+.btn{
+    margin-bottom: 15px;
+}
 /*----------footer-------------------*/
 footer{
-  background-color:#4357AD;
+  background-color:#7680BB;
   color:#FFFFFF;
   text-align: center;
   width:100%;
@@ -230,12 +255,16 @@ ul, .header-li {
 
 .left-from-logo {
   order: 2;
+  justify-content: center;
+  background-color: rgb(133, 140, 177);
   }
 .logo {
   order: 1;
+  justify-content: center;
   }
 .right-from-logo {
   order: 3;
+  justify-content: center
   }
 .content-end{
     justify-content:center;
@@ -252,7 +281,9 @@ ul, .header-li {
 
 span:hover{
     transition-property: color;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
     color: rgb(183, 149, 241);
+    text-shadow: 0 0 15px rgb(185, 133, 240);
+transform: scale(1.05);
 }
