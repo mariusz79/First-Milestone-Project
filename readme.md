@@ -37,7 +37,7 @@ This page will contain list of albums of the band.
 - Multimedia
 On this viewers will be able to watch video and listen to the songs of the band.
 
--Contact
+- Contact
 Contains a form to contact the band.
 
 
