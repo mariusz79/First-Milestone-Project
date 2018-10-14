@@ -12,7 +12,7 @@ Users Stories:
 - As a fan of 60's music, I want contact them, to ask if they could perform at my wedding.
 - As a son of Monkees' fan, I want to see and hear their clips, to check if they are really amazing.
 
-Wireframes here!
+https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/indexpage.jpg
 
 ### Features
 - Contact Us form - allows user to contact the band, by filling out the contact form
