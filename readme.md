@@ -1,5 +1,5 @@
-### The Monkees' website
-#### First Milestone Project
+## The Monkees' website
+### First Milestone Project
 
 The band is a 1960's rock band and have around 50 years experience of performing live at numerous events around the world.
 
@@ -12,40 +12,44 @@ Users Stories:
 - As a fan of 60's music, I want contact them, to ask if they could perform at my wedding.
 - As a son of Monkees' fan, I want to see and hear their clips, to check if they are really amazing.
 
-https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/indexpage.jpg
-
+#### Wireframes
+- Main page - https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/indexpage.jpg
+- Band page - https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/bandpage.jpg
+- Discography page - https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/discographypage.jpg
+- Multimedia page - https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/multimediapage.jpg
+- Contact page - https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/contactpage.jpg
 ### Features
 - Contact Us form - allows user to contact the band, by filling out the contact form
 - Play video - allows user to watch Monkees' videoclip, by pressing Play Video Button
 - Listen to the song - allows user to listen to music, by pressing Play Song Button
 
 
-###### Features Left to Implement
+### Features Left to Implement
 -  They are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
 
 
 ### List of pages
-- Home Page
+- Home Page -
 The home page will give visitors an overiew of the band and website in general.
 
-- Band
+- Band -
 This page will give an overview of each of member of the band.
 
-- Discography
+- Discography -
 This page will contain list of albums of the band.
 
-- Multimedia
+- Multimedia -
 On this viewers will be able to watch video and listen to the songs of the band.
 
-- Contact
+- Contact -
 Contains a form to contact the band.
 
 
 ### Style and layout
-- Overall Style
+- Overall Style - 
 The site should incorporate Monkees' logo.
 
-- Navigation
+- Navigation - 
 A common navigation bar should be included on all pages. The navigation bar will include links to the home page, band page, discography, multimedia and contact form.
 
 
@@ -69,7 +73,7 @@ Test the website on different web browsers and desktop/mobile.
 ### Media
 - The photos used in this site were obtained from …
 - Logo  from: https://commons.wikimedia.org/wiki/File:Monkees-logo.png
-- Music-photo from: https://isorepublic.com/music-concert/
+
 
 ### Acknowledgements
 
