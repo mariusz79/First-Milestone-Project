@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Boogaloo:100,200,300,400,500,600,700');
 
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    background-color: #E4DFDA;
+    background-color: whitesmoke;
     color: black;
 }
 
@@ -19,39 +19,59 @@ section{
 }
  /*---------------header----------*/
  .left-from-logo {
-     background-color:#7680BB;
+     background-color:#789F8A;
      margin: auto;
  }
 
  .logo {
-     background-color:#7680BB;
+     background-color:#789F8A;
      text-align: center;
      padding-left: 0;
      padding-right: 0;
      margin: 0;
  }
+ 
 
  .right-from-logo {
-     background-color:#7680BB;
+     background-color:#789F8A;
       margin: auto;
  }
  
 .header-color{
-    background-color:#7680BB;
+    background-color:#789F8A;
+    
 }
 .header-li {
      list-style: none;
      display: inline;
  }
+
 a{
     text-decoration:none;                    /*removing underscores form links*/
 }         
  span, h3 {
      font-family: 'Boogaloo', cursive;
      font-size: 30px;
-     color: #19254D;
+     color: #0A373A;
  }
  
+ /*span:hover{
+    transition-property: color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    color: rgb(183, 149, 241);
+    text-shadow: 0 0 15px rgb(55, 14, 100);
+    transform: scale(1.05); 
+}*/
+
+a :hover{
+    transition-property: color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    color: #4ccb87;
+    text-shadow: 0 0 15px rgb(55, 14, 100);
+    transform: scale(1.05);
+}
 .content-end{
     justify-content: flex-end;
 }
@@ -64,6 +84,8 @@ a{
     max-width: 150px;
     height: auto;
  }
+
+
  
 /*---------------section-home-page--------*/
 
@@ -102,14 +124,14 @@ hr {
     padding: 0;
 }
 .section-text2{
-    background-color: #48A9A6; 
+    background-color: #DEB853; 
     margin-left: 5px;
     margin-right: 5px;
     padding: 0;
     
 }
 .section-text3{
-    background-color: #D4B483; 
+    background-color: #C1666B; 
     margin-left: 5px;
     padding: 0;
 }
@@ -122,11 +144,15 @@ hr {
 }
 .far{
     font-size: 30px;
+    color: #0A373A;
 }
+
 /*----------------section-band-page--------------*/
+
 .description{
     margin-top: 15px;
     margin-bottom: 15px;
+    
 }
 .band{
     background-color: #FFFFFF;
@@ -171,6 +197,11 @@ hr {
    
 }
 /*---------------section-multimedia-page----------------*/
+
+.text-at-top{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .embed-responsive{
     max-width: 400px;
     max-height: 300px;
@@ -178,15 +209,28 @@ hr {
     min-height: 150px;
     margin: auto;
 }
+.contact-background-multimedia{
+    background-color: #DEB853;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
 .video{
     text-align: center;
 }
 .audio{
     text-align: center;
 }
+.text-at-bottom{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#multimedia-icon{
+    font-size: 30px;
+}
 /*----------------section-contact-page------------------*/
 .contact-background{
-   background-color: #4357AD;
+   background-color: #E06A4E;
    margin-top: 20px;
     /* Center and scale the image nicely 
     background-position: center;
@@ -213,7 +257,7 @@ h5{
 }
 /*----------footer-------------------*/
 footer{
-  background-color:#7680BB;
+  background-color:#789F8A;
   color:#FFFFFF;
   text-align: center;
   width:100%;
@@ -221,9 +265,26 @@ footer{
   margin: 0;
 }
 
+.green-img{
+    margin-top: 5px;
+}
+.fab{
+    font-size: 50px;
+    margin-left: 10px;
+}
 
-   
-   
+
+.fa-facebook-square{
+    color:#3B5998;
+}
+
+.fa-youtube-square{
+    color:#ec2d2d;
+}
+
+.fa-twitter-square{
+    color:#0d7db1;
+}
 
 /*----------media-queries---------------*/
 @media(max-width: 860px) {
@@ -279,11 +340,3 @@ ul, .header-li {
 
 
 
-span:hover{
-    transition-property: color;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    color: rgb(183, 149, 241);
-    text-shadow: 0 0 15px rgb(185, 133, 240);
-transform: scale(1.05);
-}
