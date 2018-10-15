@@ -1,7 +1,7 @@
 ##### First Milestone Project
 ## The Monkees' website 
 
-The band is a 1960's rock band and have around 50 years experience of performing live at numerous events around the world.
+The band is a 1960's rock band and have around fifty years experience of performing live at numerous events around the world.
 
 ### UX
 Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
