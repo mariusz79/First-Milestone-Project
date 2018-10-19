@@ -150,8 +150,8 @@ hr {
 /*----------------section-band-page--------------*/
 
 .description{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    
     
 }
 .band{
@@ -175,7 +175,7 @@ hr {
 /*----------------section-discography-page--------------*/
  
 .first-row{
-    margin-top: 10px;
+    margin-top: 20px;
     justify-content: center;
 }
 .album{
@@ -310,6 +310,9 @@ ul, .header-li {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.form{
+    max-width: 90%;
+}     
  }
 
  @media(max-width: 575px){
