@@ -7,17 +7,17 @@ body {
     color: black;
 }
 
- html, body {
+html, body {
    margin:0;
    padding:0;
    height: 100%;
-   
-    
 }
+
 section{
     min-height: 100vh;
 }
- /*---------------header----------*/
+
+ /*----------------------------header-------------------*/
  .left-from-logo {
      background-color:#789F8A;
      margin: auto;
@@ -31,7 +31,6 @@ section{
      margin: 0;
  }
  
-
  .right-from-logo {
      background-color:#789F8A;
       margin: auto;
@@ -39,8 +38,8 @@ section{
  
 .header-color{
     background-color:#789F8A;
-    
-}
+ }
+
 .header-li {
      list-style: none;
      display: inline;
@@ -49,21 +48,13 @@ section{
 a{
     text-decoration:none;                    /*removing underscores form links*/
 }         
- span, h3 {
+
+span, h3 {
      font-family: 'Boogaloo', cursive;
      font-size: 30px;
      color: #0A373A;
  }
  
- /*span:hover{
-    transition-property: color;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-in-out;
-    color: rgb(183, 149, 241);
-    text-shadow: 0 0 15px rgb(55, 14, 100);
-    transform: scale(1.05); 
-}*/
-
 a :hover{
     transition-property: color;
     transition-duration: 0.1s;
@@ -72,24 +63,23 @@ a :hover{
     text-shadow: 0 0 15px rgb(55, 14, 100);
     transform: scale(1.05);
 }
+
 .content-end{
     justify-content: flex-end;
 }
+
 .content-start{
     justify-content: flex-start;
 }
- /*--------------Logo------------*/
+
+/*-----------------------------Logo----------------------*/
  .responsive {
     width: 100%;
     max-width: 150px;
     height: auto;
  }
 
-
- 
-/*---------------section-home-page--------*/
-
-
+/*------------------------section-home-page---------------*/
 .big-pic {
     text-align: center;
     margin-top: 25px;
@@ -100,6 +90,7 @@ a :hover{
     max-width: 100%;
     height: auto;
 }
+
 hr { 
     display: block;
     margin-top: 0.5em;
@@ -110,6 +101,7 @@ hr {
     border-width: 1px;
     width: 50%;
 } 
+
 .under-image-section{
     max-width: 980px;
     margin: auto;
@@ -118,11 +110,13 @@ hr {
     margin-bottom: 25px;
     font-size: 20px;
 }
+
 .section-text1{
     background-color: rgb(198, 182, 166);
     margin-right: 5px;
     padding: 0;
 }
+
 .section-text2{
     background-color: #DEB853; 
     margin-left: 5px;
@@ -130,11 +124,13 @@ hr {
     padding: 0;
     
 }
+
 .section-text3{
     background-color: #C1666B; 
     margin-left: 5px;
     padding: 0;
 }
+
 #icon-nowrap{
     white-space: nowrap;
     font-family: Roboto, sans-serif;
@@ -142,48 +138,52 @@ hr {
     font-size: 20px;
     color: black;
 }
+
 .far{
     font-size: 30px;
     color: #0A373A;
 }
 
-/*----------------section-band-page--------------*/
-
+/*--------------------------section-band-page---------------------*/
 .description{
-    margin-top: 20px;
-    
-    
+    margin-top: 20px;   
 }
+
 .band{
     background-color: #FFFFFF;
     margin: 5px;
 }
+
 .image-float-left{
     float: left;
     margin: 5px;
 }
+
 .image-float-right{
     float: right;
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 .band-description{
     margin-top: 1rem;
     vertical-align: end;
 }
 
-/*----------------section-discography-page--------------*/
- 
+/*--------------------------section-discography-page---------------------*/
 .first-row{
     margin-top: 20px;
     justify-content: center;
 }
+
 .album{
     background-color: #fdfbfb;
 }
+
 .album1{
     background-color: #cbc0c0;
 }
+
 .responsive-d{
     width: 100%;
     max-width: 400px;
@@ -191,17 +191,18 @@ hr {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 .album, .album1{
     margin-top: 5px;
-    margin-bottom: 5px;
-   
+    margin-bottom: 5px;  
 }
-/*---------------section-multimedia-page----------------*/
 
+/*--------------------------section-multimedia-page----------------------*/
 .text-at-top{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .embed-responsive{
     max-width: 400px;
     max-height: 300px;
@@ -209,17 +210,21 @@ hr {
     min-height: 150px;
     margin: auto;
 }
+
 .contact-background-multimedia{
     background-color: #DEB853;
     margin-top: 20px;
     margin-bottom: 15px;
 }
+
 .video{
     text-align: center;
 }
+
 .audio{
     text-align: center;
 }
+
 .text-at-bottom{
     margin-top: 30px;
     margin-bottom: 10px;
@@ -228,34 +233,37 @@ hr {
 #multimedia-icon{
     font-size: 30px;
 }
-/*----------------section-contact-page------------------*/
+
+/*--------------------------section-contact-page-----------------------*/
 .contact-background{
    background-color: #E06A4E;
-   margin-top: 20px;
-    /* Center and scale the image nicely 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  */
+   margin-top: 20px;   
 }
+
 .text-advert{
     margin-top: 20px;
 }
+
 h5{
     margin-top: 15px;
 }
+
 .uppercase{
     text-transform: uppercase;
 }
+
 .form{
     padding-top: 10px;
     max-width: 50%;
     margin: 0 auto;
     text-align: center;
 }
+
 .btn{
     margin-bottom: 15px;
 }
-/*----------footer-------------------*/
+
+/*--------------------------------footer-----------------------------*/
 footer{
   background-color:#789F8A;
   color:#FFFFFF;
@@ -268,11 +276,11 @@ footer{
 .green-img{
     margin-top: 5px;
 }
+
 .fab{
     font-size: 50px;
     margin-left: 10px;
 }
-
 
 .fa-facebook-square{
     color:#3B5998;
@@ -286,13 +294,14 @@ footer{
     color:#0d7db1;
 }
 
-/*----------media-queries---------------*/
+/*------------------------------------media-queries-------------------------------*/
 @media(max-width: 860px) {
 ul, .header-li {
      list-style: none;
      display: block;
 }
 }
+
  @media(max-width: 767px){
 .section-text1{
     margin-right: 0px;
@@ -313,10 +322,9 @@ ul, .header-li {
 .form{
     max-width: 90%;
 }     
- }
+}
 
  @media(max-width: 575px){
-
 .left-from-logo {
   order: 2;
   justify-content: center;
@@ -332,11 +340,9 @@ ul, .header-li {
   }
 .content-end{
     justify-content:center;
-
 }
 .content-start{
     justify-content:center;
-
 }
 }
 
