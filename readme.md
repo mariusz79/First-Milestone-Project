@@ -36,36 +36,36 @@ Also, the band would like to use the site to showcase their music and publicise 
 5. As a person who know their most popular songs from the radio, I want to check their discography, to discover some new songs.
 
 ### Wireframes
-- [Main page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/indexpage.jpg)
-- [Band page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/bandpage.jpg)
-- [Discography page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/discographypage.jpg)
-- [Multimedia page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/multimediapage.jpg)
-- [Contact page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/contactpage.jpg)
+1. [Main page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/indexpage.jpg)
+2. [Band page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/bandpage.jpg)
+3. [Discography page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/discographypage.jpg)
+4. [Multimedia page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/multimediapage.jpg)
+5. [Contact page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/contactpage.jpg)
 
 ## Features
-- Contact form - allows user to contact the band, by filling out the contact form
-- Play video - allows user to watch Monkees' videoclip, by pressing Play Video Button
-- Listen to the song - allows user to listen to music, by pressing Play Song Button
+1. Contact form - allows user to contact the band, by filling out the contact form
+2. Play video - allows user to watch Monkees' videoclip, by pressing Play Video Button
+3. Listen to the song - allows user to listen to music, by pressing Play Song Button
 
 
 ### Features Left to Implement
--  They are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
+ They are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
 
 
 ## List of pages
-- __Home Page__ -
+1. __Home Page__ -
 The home page will give visitors an overiew of the band and website in general.
 
-- __Band__ -
+2. __Band__ -
 This page will give an overview of each of member of the band.
 
-- __Discography__ -
+3. __Discography__ -
 This page will contain list of albums of the band.
 
-- __Multimedia__ -
+4. __Multimedia__ -
 On this viewers will be able to watch video and listen to the songs of the band.
 
-- __Contact__ -
+5. __Contact__ -
 Contains a form to contact the band.
 
 
@@ -79,9 +79,9 @@ A common navigation bar should be included on all pages. The navigation bar will
 
 
 ## Technologies Used
-- [HTML5](https://www.w3.org/TR/html52/)
-- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
-- [Bootstrap framework](http://getbootstrap.com/)
+1. [HTML5](https://www.w3.org/TR/html52/)
+2. [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+3. [Bootstrap framework](http://getbootstrap.com/)
 
 ## Testing
 ### User stories
@@ -103,7 +103,7 @@ User stories from the UX section were tested to ensure that they all work as int
 > - Go to the Discography page.
 
 ### Different browsers, mobile, desktop.
-According to https://www.w3schools.com/browsers/ statisctics, the most popular browsers in 2018 are:
+According to https://www.w3schools.com/browsers/ statistics, the most popular browsers in 2018 are:
 - Chrome;
 - Edge/IE,
 - Firefox,
@@ -123,9 +123,9 @@ The project looks and works properly on different browsers and screen sizes.
 - Micky Dolenz - https://www.biography.com/people/micky-dolenz-16730294
 
 ### Media
-- The photos, video and mp3 files used in this project were obtained from Code Institute github - https://github.com/Code-Institute-Org/project-assets
-- Monkees Logo - from: https://commons.wikimedia.org/wiki/File:Monkees-logo.png
+1. The photos, video and mp3 files used in this project were obtained from Code Institute github - https://github.com/Code-Institute-Org/project-assets
+2. Monkees Logo - from: https://commons.wikimedia.org/wiki/File:Monkees-logo.png
 
 
 ## Acknowledgements
-- I received inspiration for this project from [Code Institute](https://www.codeinstitute.net/)
+I received inspiration for this project from [Code Institute](https://www.codeinstitute.net/)
