@@ -28,14 +28,14 @@
 Primary target audiences of the band are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
 Also, the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
 
-### Users Stories:
+#### Users Stories:
 1. As a longtime fan of the band, I want to listen to their songs, to bring back good memories.
 2. As a fan of 60's music, I want contact them, to ask if they could perform at my wedding.
 3. As a son of Monkees' fan, I want to see and hear their clips, to check if they are really amazing.
 4. As a fan of their music, I want to read about members of the band, to check their history.
 5. As a person who know their most popular songs from the radio, I want to check their discography, to discover some new songs.
 
-### Wireframes
+#### Wireframes
 1. [Main page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/indexpage.jpg)
 2. [Band page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/bandpage.jpg)
 3. [Discography page](https://github.com/mariusz79/First-Milestone-Project/blob/master/assets/images/discographypage.jpg)
@@ -48,7 +48,7 @@ Also, the band would like to use the site to showcase their music and publicise 
 3. Listen to the song - allows user to listen to music, by pressing Play Song Button
 
 
-### Features Left to Implement
+#### Features Left to Implement
  They are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
 
 
@@ -84,7 +84,7 @@ A common navigation bar should be included on all pages. The navigation bar will
 3. [Bootstrap framework](http://getbootstrap.com/)
 
 ## Testing
-### User stories
+#### User stories
 User stories from the UX section were tested to ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 1. As a longtime fan of the band, I want to listen to their songs, to bring back good memories:
 > - Go to the Multimedia page,
@@ -102,7 +102,7 @@ User stories from the UX section were tested to ensure that they all work as int
 5. As a person who know their most popular songs from the radio, I want to check their discography, to discover some new songs:
 > - Go to the Discography page.
 
-### Different browsers, mobile, desktop.
+#### Different browsers, mobile, desktop.
 According to https://www.w3schools.com/browsers/ statistics, the most popular browsers in 2018 are:
 - Chrome;
 - Edge/IE,
@@ -115,17 +115,17 @@ The project looks and works properly on different browsers and screen sizes.
 
 
 ## Content
-### Texts
+#### Texts
 - The texts for section Band was copied from the https://www.biography.com
 - Peter Tork - https://www.biography.com/people/peter-tork-20758183
 - Davy Jones - https://www.biography.com/people/davy-jones-377858
 - Michael Nesmith - https://www.biography.com/people/michael-nesmith-20757957
 - Micky Dolenz - https://www.biography.com/people/micky-dolenz-16730294
 
-### Media
+#### Media
 1. The photos, video and mp3 files used in this project were obtained from Code Institute github - https://github.com/Code-Institute-Org/project-assets
 2. Monkees Logo - from: https://commons.wikimedia.org/wiki/File:Monkees-logo.png
 
 
 ## Acknowledgements
-I received inspiration for this project from [Code Institute](https://www.codeinstitute.net/)
+I received inspiration for this project from [Code Institute](https://www.codeinstitute.net/).
