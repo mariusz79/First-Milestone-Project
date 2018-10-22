@@ -304,16 +304,16 @@ ul, .header-li {
 
  @media(max-width: 767px){
 .section-text1{
-    margin-right: 0px;
+    margin-right: 0;
     margin-bottom: 5px;
 }
 .section-text2{
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 5px;
 }
 .section-text3{
-    margin-left: 0px;
+    margin-left: 0;
 }
 .audio{
     margin-top: 50px;
