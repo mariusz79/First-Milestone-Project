@@ -131,7 +131,7 @@ hr {
     padding: 0;
 }
 
-#icon-nowrap{
+#icon-nowrap, #icon-nowrap1{
     white-space: nowrap;
     font-family: Roboto, sans-serif;
     font-weight: 300;
