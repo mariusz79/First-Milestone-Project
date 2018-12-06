@@ -17,6 +17,7 @@
 1. [Testing](#testing)
    1. [User stories](#user-stories)
    1. [Different browsers, mobile, desktop](#different-browsers-mobile-desktop)
+1. [Deployment](#deployment)
 1. [Content](#content)
 1. [Acknowledgements](#acknowledgements)
 
@@ -113,6 +114,8 @@ According to https://www.w3schools.com/browsers/ statistics, the most popular br
 This project website was tested on mentioned above web browsers and desktop/mobile.
 The project looks and works properly on different browsers and screen sizes.
 
+## Deployment
+This site has been deployed on GitHub pages and can be viewed here: [live preview of project](https://mariusz79.github.io/First-Milestone-Project/) 
 
 ## Content
 #### Texts
